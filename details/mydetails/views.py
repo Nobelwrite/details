@@ -9,7 +9,7 @@ def get_details(request):
         {
             'email': 'damilolajoseph91@gmail.com',
             'current_datetime': timezone.now().strftime('%Y-%m-%dtH:%M:%SZ'),
-            'github_url': 'https://github.com/Nobelwrite/personaldetails'
+            'github_url': 'https://github.com/Nobelwrite/details'
         }
     )
 
