@@ -15,5 +15,7 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'details.settings')
 
 application = get_wsgi_application()
 
+app = application
+
 if __name__== '__main__':
     application.run()
